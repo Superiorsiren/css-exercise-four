@@ -20,7 +20,7 @@ body {
 .baku {
   width: 250px;
   height: 250px;
-  margin: 10px 0 10px 10px;
+  margin: 0px 0 10px 10px;
   background-image: url(../images/baku.jpg);
   background-size: cover;
   position: relative;
@@ -30,7 +30,7 @@ body {
 .london {
   width: 250px;
   height: 250px;
-  margin: 10px 0 10px 10px;
+  margin: 0px 0 10px 10px;
   background-image: url(../images/london.png);
   background-size: cover;
   position: relative;
@@ -40,7 +40,7 @@ body {
 .madrid {
   width: 250px;
   height: 250px;
-  margin: 10px 0 10px 10px;
+  margin: 0px 0 10px 10px;
   background-image: url(../images/madrid.jpg);
   background-size: cover;
   position: relative;
@@ -50,7 +50,7 @@ body {
 .rome {
   width: 250px;
   height: 250px;
-  margin: 10px 0 10px 10px;
+  margin: 0px 0 10px 10px;
   background-image: url(../images/rome.jpg);
   background-size: cover;
   position: relative;
@@ -58,7 +58,7 @@ body {
 }
 
 .header h1 {
-  font-size: 180%;
+  font-size: 250%;
   font-family: sans-serif;
   font-variant: small-caps;
   letter-spacing: 2px;
@@ -68,7 +68,8 @@ body {
 }
 
 h1 {
-  font-size: 180%;
+  font-size: 250%;
+  padding: 25px 25px 25px 25px;
 }
 
 @media screen and (min-width: 575px){
