@@ -18,9 +18,9 @@ body {
 }
 
 .baku {
-  width: 50px;
-  margin: 10px 10px 0 0;
-  padding: 100px;
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 10px 10px;
   background-image: url(../images/baku.jpg);
   background-size: cover;
   position: relative;
@@ -28,9 +28,9 @@ body {
 }
 
 .london {
-  width: 50px;
-  margin: 10px 10px 0 0;
-  padding: 100px;
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 10px 10px;
   background-image: url(../images/london.png);
   background-size: cover;
   position: relative;
@@ -38,9 +38,9 @@ body {
 }
 
 .madrid {
-  width: 50px;
-  margin: 10px 10px 0 0;
-  padding: 100px;
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 10px 10px;
   background-image: url(../images/madrid.jpg);
   background-size: cover;
   position: relative;
@@ -48,9 +48,9 @@ body {
 }
 
 .rome {
-  width: 50px;
-  margin: 10px 10px 0 0;
-  padding: 100px;
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 10px 10px;
   background-image: url(../images/rome.jpg);
   background-size: cover;
   position: relative;
@@ -62,14 +62,13 @@ body {
   font-family: sans-serif;
   font-variant: small-caps;
   letter-spacing: 2px;
-  width: 0 auto;
   padding-top: 25px;
   padding-bottom: 25px;
+  text-align: center;
 }
 
 h1 {
   font-size: 180%;
-  float: left;
 }
 
 @media screen and (min-width: 575px){
