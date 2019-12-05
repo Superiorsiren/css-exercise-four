@@ -57,20 +57,19 @@ body {
   display: inline-block;
 }
 
-h1 {
-  text-align: center;
+.header h1 {
   font-size: 180%;
   font-family: sans-serif;
   font-variant: small-caps;
   letter-spacing: 2px;
-  width: 100%;
+  width: 0 auto;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-h2 {
-  text-align: left;
+h1 {
   font-size: 180%;
+  float: left;
 }
 
 @media screen and (min-width: 575px){
